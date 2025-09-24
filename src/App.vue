@@ -1,11 +1,9 @@
 <template>
-
-  <CompositionAPI />
-  <OptionsApi />
-
+  <CompositionApi />
+  <CompositionApiExample />
 </template>
 <script setup lang="ts">
 
-import CompositionAPI from '@/components/ComputedProperties/CompositionAPI.vue'
-import OptionsApi from '@/components/ComputedProperties/OptionsApi.vue'
+import CompositionApi from '@/components/Watch/CompositionApi.vue'
+import CompositionApiExample from '@/components/Watch/CompositionApiExample.vue'
 </script>
