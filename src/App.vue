@@ -1,9 +1,8 @@
 <template>
-  <CompositionApi />
-  <CompositionApiExample />
+
+<Binding />
 </template>
 <script setup lang="ts">
 
-import CompositionApi from '@/components/Watch/CompositionApi.vue'
-import CompositionApiExample from '@/components/Watch/CompositionApiExample.vue'
+import Binding from '@/components/Binding/Binding.vue'
 </script>
